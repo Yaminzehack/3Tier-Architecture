@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3-Tier Web Tier</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="text-center">
+    <h1 class="text-4xl font-bold mb-6 animate-pulse">Web Tier - Click to Trigger Backend</h1>
+    <button onclick="callAPI()" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition transform hover:scale-110 duration-300">Trigger API</button>
+  </div>
+  <script>
+    function callAPI() {
+      fetch("http://localhost:5000/log", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ source: "Web-Tier", timestamp: new Date() })
+      })
+      .then(res => res.text())
+      .then(data => alert("Response: " + data))
+      .catch(err => alert("Error: " + err));
+    }
+  </script>
+</body>
+</html>

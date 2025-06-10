@@ -1,0 +1,9 @@
+
+CREATE DATABASE IF NOT EXISTS threetierdb;
+USE threetierdb;
+
+CREATE TABLE IF NOT EXISTS logs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  source VARCHAR(255),
+  timestamp DATETIME
+);
