@@ -13,10 +13,8 @@ This project demonstrates a simple **3-Tier Architecture**: Web Tier (Frontend),
 ## 📸 Preview
 **Web-tier**
 ![image](https://github.com/user-attachments/assets/7a72080f-22f1-4102-8b3d-90cc887d82a1)
-
 **App-tier**
 ![2025-06-08_18-35](https://github.com/user-attachments/assets/2717ed57-a3c4-4d6d-97c2-fa00579b9e2c)
-
 **DB-tier**
 ![2025-06-08_18-36](https://github.com/user-attachments/assets/da2e905f-0eca-41b8-9454-c4620ca0cf3b)
 
