@@ -11,7 +11,8 @@ This project demonstrates a simple **3-Tier Architecture**: Web Tier (Frontend),
 - Fully functional local setup.
 
 ## 📸 Preview
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/7a72080f-22f1-4102-8b3d-90cc887d82a1)
+
 
 
 ## 📁 Folder Structure
